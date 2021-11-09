@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* 参考) https://www.seojuku.com/blog/responsive-mediaquery.html */
+/* デバイスサイズ参考) https://webdesign-abc.com/tech/resolution-list/ */
+
+/* 全デバイス共通 */
+body {
+    font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+}
+h1 {
+    color: #fd7e14;
+}
+h2 {
+    color: blue;
+}
+#icon {
+    width: 40px;
+}
+#mainVisual {
+    width: 100%;
+}
+.item img {
+    width: 100%;
+}
+.aside img {
+    width: 100%;
+}
+
+/*col-sm-*(576〜767px): スマートフォン（横）*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+/*col-md-*(768〜991px): タブレット*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+/*col-lg-*(992〜1199px): デスクトップ*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+/*col-xl-*(1200px〜): 大きなデスクトップ*/
+@media screen and (min-width: 1200px) {
+    
+}
+
+

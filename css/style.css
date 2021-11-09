@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* 参考) https://www.seojuku.com/blog/responsive-mediaquery.html */
+/* デバイスサイズ参考) https://webdesign-abc.com/tech/resolution-list/ */
+
+/* 全デバイス共通 */
+
+
+/*col-sm-*(576〜767px): スマートフォン（横）*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+/*col-md-*(768〜991px): タブレット*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+/*col-lg-*(992〜1199px): デスクトップ*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+/*col-xl-*(1200px〜): 大きなデスクトップ*/
+@media screen and (min-width: 1200px) {
+    
+}
+
+
